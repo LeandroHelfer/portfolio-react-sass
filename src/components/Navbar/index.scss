@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 18px 85px 18px 45px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.24);
+    font-family: 'Nunito Sans';
+
+
+}
+
+.navbar-leftSide {
+
+    a {
+        font-size: 24px;
+        font-weight: 600;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.navbar-rightSide {
+    width: 40%;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            list-style: none;
+
+            a {
+                font-size: 20px;
+                font-weight: 600;
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}

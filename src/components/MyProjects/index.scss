@@ -1,0 +1,164 @@
+.MyProjects--card1 {
+    display: flex;
+    padding: 16px 66px;
+    background: #598AD5;
+
+    .MyProjects--card1__text {
+        padding-left: 33px;
+        width: 65%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+
+        .MyProjects--card1__text__link {
+            display: flex;
+            gap: 11px;
+            align-items: center;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #FFFFFF;
+        }
+
+        p {
+            padding-top: 17px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.MyProjects--card2 {
+    display: flex;
+    padding: 16px 66px;
+    justify-content: flex-end;
+
+    .MyProjects--card2__text {
+        padding-right: 33px;
+        width: 53%;
+        text-align: end;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #598AD5;
+
+        .MyProjects--card2__text__link {
+            display: flex;
+            justify-content: flex-end;
+            gap: 11px;
+            align-items: center;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #598AD5;
+        }
+
+        p {
+            padding-top: 17px;
+        }
+
+        a{
+            color: #598AD5;
+            text-decoration: none;
+        }
+    }
+}
+
+.MyProjects--card3 {
+    display: flex;
+    padding: 16px 66px;
+    background: #598AD5;
+
+    .MyProjects--card3__text {
+        padding-left: 33px;
+        width: 60%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+
+        .MyProjects--card3__text__link {
+            display: flex;
+            gap: 11px;
+            align-items: center;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #FFFFFF;
+        }
+
+        p {
+            padding-top: 17px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.MyProjects--card4 {
+    display: flex;
+    padding: 16px 66px;
+    justify-content: flex-end;
+    border-bottom: 3px solid #598AD5;
+
+    .MyProjects--card4__text {
+        padding-right: 33px;
+        width: 65%;
+        text-align: end;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #598AD5;
+
+        .MyProjects--card4__text__link {
+            display: flex;
+            justify-content: flex-end;
+            gap: 11px;
+            align-items: center;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #598AD5;
+        }
+
+        p {
+            padding-top: 17px;
+        }
+
+        a{
+            color: #598AD5;
+            text-decoration: none;
+        }
+    }
+}

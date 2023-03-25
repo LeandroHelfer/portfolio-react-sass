@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    padding-top: 17px;
+    padding-left: 48px;
+    padding-bottom: 20px;
+
+    h1 {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        color: #598AD5;
+    }
+
+    .footer-left {
+        width: 50%;
+        padding-top: 8px;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 13px;
+        align-items: center;
+
+        img {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 40px;
+        }
+
+        a {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            color: #000000;
+
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.central {
+    background: #598AD5;
+}
+
+.central-top {
+    display: flex;
+    max-width: 100%;
+
+    .central-top__text {
+        width: 70%;
+        padding-top: 94px;
+
+        h1 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 96px;
+            color: #FFFFFF;
+            padding-left: 220px;
+        }
+
+        h3 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #FFFFFF;
+            padding-left: 368px;
+        }
+    }
+
+    .central-top__img {
+        padding-top: 67px;
+
+    }
+}
+
+.central-mid {
+    text-align: center;
+    padding-top: 81px;
+
+    h1 {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+        color: #FFFFFF;
+    }
+}
+
+.central-end {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 48px 48px 48px;
+    max-width: 100%;
+
+    a:hover {
+        filter: drop-shadow(0 0 1rem rgba(255, 255, 255, 0.514));
+    }
+
+    .ImgCard {
+        filter: drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.514));
+    }
+}
