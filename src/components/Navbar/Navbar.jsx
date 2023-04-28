@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './index.scss'
 import Modal from '../modal/modal'
@@ -21,7 +21,7 @@ const navbar = () => {
                     <li>
                         <a >
                             <button onClick={() => setModalVisible(true)}> Sobre Mim</button>
-                            {modalVisible ? <Modal onClose={ () => setModalVisible(false)}/> : null}
+                            {modalVisible ? <Modal onClose={() => setModalVisible(false)} /> : null}
                         </a>
                     </li>
                     <li>
@@ -30,7 +30,7 @@ const navbar = () => {
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href="https://wa.me/5551995285006" target="_blank" >
                             Fale Comigo
                         </a>
                     </li>
