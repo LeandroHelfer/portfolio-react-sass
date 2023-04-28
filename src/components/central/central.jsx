@@ -11,8 +11,8 @@ const central = () => {
         <section className="central">
             <div className="central-top">
                 <div className="central-top__text">
-                    <h1>Olá, sou o Leandro</h1>
-                    <h3>Sou desenvolvedor, e gostaria de apresentar meu <br></br>
+                    <h1 className="central-top__text_h1" >Olá, sou o Leandro</h1>
+                    <h3 className="central-top__text_h3" >Sou desenvolvedor, e gostaria de apresentar meu <br></br>
                         trabalho para você através deste portfólio.</h3>
                 </div>
                 <div className="central-top__img">
@@ -21,7 +21,7 @@ const central = () => {
             </div>
 
             <div className="central-mid">
-                <h1>Meus Projetos</h1>
+                <h1 className="central-mid__h1" >Meus Projetos</h1>
             </div>
 
             <div className="central-end">
