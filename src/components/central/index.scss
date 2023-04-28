@@ -10,7 +10,7 @@
         width: 70%;
         padding-top: 94px;
 
-        h1 {
+        &_h1 {
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 700;
@@ -20,7 +20,7 @@
             padding-left: 220px;
         }
 
-        h3 {
+        &_h3 {
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
@@ -41,7 +41,7 @@
     text-align: center;
     padding-top: 81px;
 
-    h1 {
+    &__h1 {
         font-family: 'Nunito Sans';
         font-style: normal;
         font-weight: 700;
