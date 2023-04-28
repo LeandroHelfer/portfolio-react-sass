@@ -12,18 +12,18 @@ const modal = ({ id = "modal", onClose = () => {} }) => {
             <div className='container'>
                 <button className='close' onClick={onClose} />
                 <div className='content'>
-                    <h1>
+                    <h1 className='content__h1'>
                         SOBRE MIM
                     </h1>
-                    <h2>
+                    <h2 className='content__h2'>
                         Estudante de Formação em Tech da DNC 📚
                     </h2>
-                    <h2>
+                    <h2 className='content__h2'>
                         Conhecimento em linguagens HTML, CSS e Javascript ✅️<br />
                         Frameworks e bibliotecas como React.js e Bootstrap ✅<br />
-                        Estudando Back-End
+                        Estudando Back-End ▶️
                     </h2>
-                    <h2>
+                    <h2 className='content__h2'>
                     Com experiência há 8 anos na área de logística, 
                     tendo atuação como Encarregado 
                     e atualmente como Analista, 
