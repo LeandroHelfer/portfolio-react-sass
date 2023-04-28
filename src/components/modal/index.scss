@@ -1,0 +1,49 @@
+.modal {
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+    .container {
+        background-color: white;
+        color: black;
+        width: 40%;
+        height: 30%;
+        border-radius: 20px;
+
+        .close {
+            background-color: transparent;
+            outline: none;
+            border: 0;
+            width: 32px;
+            height: 32px;
+            right: calc(-100% + 64px);
+            top: 16px;
+            display: flex;
+            position: relative;
+            align-items: center;
+            cursor: pointer;
+            
+            &::before,
+            &::after {
+                content: ' ';
+                position: absolute;
+                width: 2.5px;
+                height: 24px;
+                background-color: black;
+            }
+            &::before {
+                transform: rotate(45deg);
+            }
+            &::after {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+}

@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import './index.scss'
 import Home from "./views/Home/Home";
 import Projects from "./views/Projects/Projects"
-import Modal from "./views/Modal/Modal"
 import {
   createBrowserRouter,
   RouterProvider,
@@ -17,10 +16,6 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />,
-  },
-  {
-    path: "/modal",
-    element: <Modal />,
   },
 ]);
 

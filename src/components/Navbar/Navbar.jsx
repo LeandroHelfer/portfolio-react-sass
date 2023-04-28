@@ -1,8 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import './index.scss'
+import Modal from '../modal/modal'
 
 const navbar = () => {
+
+    const [modalVisible, setModalVisible] = useState(false);
+
     return (
         <navbar className="navbar">
             <div className="navbar-leftSide">
@@ -15,8 +19,9 @@ const navbar = () => {
             <div className="navbar-rightSide">
                 <ul>
                     <li>
-                        <a>
-                            Sobre Mim
+                        <a >
+                            <button onClick={() => setModalVisible(true)}> Sobre Mim</button>
+                            {modalVisible ? <Modal onClose={ () => setModalVisible(false)}/> : null}
                         </a>
                     </li>
                     <li>
