@@ -16,7 +16,7 @@ const central = () => {
                         trabalho para você através deste portfólio.</h3>
                 </div>
                 <div className="central-top__img">
-                    <img src={foto} alt="foto perfil" />
+                    <img id="imgFoto" src={foto} alt="foto perfil" />
                 </div>
             </div>
 

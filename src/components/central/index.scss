@@ -4,7 +4,6 @@
 
 .central-top {
     display: flex;
-    max-width: 100%;
 
     .central-top__text {
         width: 70%;
@@ -17,7 +16,7 @@
             font-size: 64px;
             line-height: 96px;
             color: #FFFFFF;
-            padding-left: 220px;
+            padding-left: 20%;
         }
 
         &_h3 {
@@ -27,12 +26,17 @@
             font-size: 20px;
             line-height: 30px;
             color: #FFFFFF;
-            padding-left: 368px;
+            padding-left: 30%;
         }
     }
 
     .central-top__img {
         padding-top: 67px;
+        padding-right: 5%;
+
+        #imgFoto {
+            width: 100%;
+        }
 
     }
 }
@@ -53,9 +57,9 @@
 
 .central-end {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 38px 48px 48px 48px;
-    max-width: 100%;
 
     a:hover {
         filter: drop-shadow(0 0 1rem rgba(255, 255, 255, 0.514));
@@ -63,5 +67,16 @@
 
     .ImgCard {
         filter: drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.514));
+        width: 100%;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .central-top {
+        .central-top__text {
+            &_h1 {
+                font-size: 50px;
+            }
+        }
     }
 }
