@@ -5,7 +5,7 @@
 
     .MyProjects--card1__text {
         padding-left: 33px;
-        width: 65%;
+        width: 70%;
 
         font-family: 'Poppins';
         font-style: normal;
@@ -45,7 +45,7 @@
 
     .MyProjects--card2__text {
         padding-right: 33px;
-        width: 53%;
+        width: 60%;
         text-align: end;
 
         font-family: 'Poppins';
@@ -87,7 +87,7 @@
 
     .MyProjects--card3__text {
         padding-left: 33px;
-        width: 60%;
+        width: 53%;
 
         font-family: 'Poppins';
         font-style: normal;
@@ -158,6 +158,46 @@
 
         a{
             color: #598AD5;
+            text-decoration: none;
+        }
+    }
+}
+
+.MyProjects--card5 {
+    display: flex;
+    padding: 16px 66px;
+    background: #598AD5;
+
+    .MyProjects--card5__text {
+        padding-left: 33px;
+        width: 65%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+
+        .MyProjects--card5__text__link {
+            display: flex;
+            gap: 11px;
+            align-items: center;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #FFFFFF;
+        }
+
+        p {
+            padding-top: 17px;
+        }
+
+        a{
+            color: white;
             text-decoration: none;
         }
     }

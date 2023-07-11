@@ -26,23 +26,23 @@ const central = () => {
 
             <div className="central-end">
                 <div>
-                    <a href="https://adorable-smakager-538f79.netlify.app/" target="_blank" >
+                    <a href="https://github.com/pripc/E-commerce-DNC" target="_blank" >
                         <img className='ImgCard' src={card1} alt="card1" />
                     </a>
                 </div>
                 <div>
+                    <a href="https://adorable-smakager-538f79.netlify.app/" target="_blank" >
+                        <img className='ImgCard' src={card2} alt="card1" />
+                    </a>
+                </div>
+                <div>
                     <a href="https://illustrious-centaur-0813da.netlify.app/" target="_blank">
-                        <img className='ImgCard' src={card2} alt="card2" />
+                        <img className='ImgCard' src={card3} alt="card2" />
                     </a>
                 </div>
                 <div>
                     <a href="https://admirable-platypus-6c0a1e.netlify.app/" target="_blank">
-                        <img className='ImgCard' src={card3} alt="card3" />
-                    </a>
-                </div>
-                <div>
-                    <a href="https://sprightly-peony-327014.netlify.app/" target="_blank"> 
-                        <img className='ImgCard' src={card4} alt="card4" />
+                        <img className='ImgCard' src={card4} alt="card3" />
                     </a>
                 </div>
             </div>
