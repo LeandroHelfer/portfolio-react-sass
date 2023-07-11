@@ -77,9 +77,12 @@
     }
 }
 
-@media (max-width: 1224px) {
+@media (max-width: 1308px) {
     .modal {
         height: 190%;
+        .container {
+            height: 60%;
+        }
     }
 }
 
