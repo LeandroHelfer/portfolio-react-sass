@@ -1,0 +1,170 @@
+.modal {
+    width: 100%;
+    height: 130vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+    .container {
+        background-color: white;
+        color: black;
+        width: 50%;
+        height: 60%;
+        border-radius: 20px;
+
+        .close {
+            background-color: transparent;
+            outline: none;
+            border: 0;
+            width: 32px;
+            height: 32px;
+            right: calc(-100% + 64px);
+            top: 16px;
+            display: flex;
+            position: relative;
+            align-items: center;
+            cursor: pointer;
+
+            &::before,
+            &::after {
+                content: ' ';
+                position: absolute;
+                width: 2.5px;
+                height: 24px;
+                background-color: black;
+            }
+
+            &::before {
+                transform: rotate(45deg);
+            }
+
+            &::after {
+                transform: rotate(-45deg);
+            }
+        }
+
+        .content {
+            text-align: center;
+            padding-top: 30px;
+
+            &__h1 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 72px;
+                color: #598AD5;
+                padding-bottom: 20px;
+            }
+
+            &__h2 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                padding-bottom: 20px;
+                padding-left: 45px;
+                padding-right: 49px;
+                color: #000000;
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 850px) {
+    .modal {
+        height: 183vh;
+        .container {
+            width: 80%;
+            height: 30%;
+
+            .content__h1 {
+                font-size: 40px;
+            }
+
+            .content__h2 {
+                font-size: 16px;
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (max-device-width: 573px) {
+    .modal {
+        height: 185vh;
+        .container {
+            width: 80%;
+            height: 30%;
+
+            .content__h1 {
+                font-size: 35px;
+            }
+
+            .content__h2 {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 461px) {
+    .modal {
+        height: 230vh;
+        .container {
+            width: 80%;
+            height: 32%;
+
+            .content__h1 {
+                font-size: 30px;
+            }
+
+            .content__h2 {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 400px) {
+    .modal {
+        height: 255vh;
+        .container {
+            width: 80%;
+            height: 32%;
+
+            .content__h1 {
+                font-size: 30px;
+            }
+
+            .content__h2 {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 385px) {
+    .modal {
+        height: 320vh;
+        .container {
+            width: 80%;
+            height: 35%;
+
+            .content__h1 {
+                font-size: 30px;
+            }
+
+            .content__h2 {
+                font-size: 12px;
+            }
+        }
+    }
+}

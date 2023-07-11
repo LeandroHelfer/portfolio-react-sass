@@ -1,8 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
-    padding: 18px 85px 18px 45px;
+    padding: 1.1% 5% 1.1% 2.6%;
     box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.24);
     font-family: 'Nunito Sans';
 
@@ -18,10 +17,12 @@
         text-decoration: none;
         color: black;
     }
+
 }
 
 .navbar-rightSide {
     width: 40%;
+    padding-right: 5%;
 
     ul {
         display: flex;
@@ -29,6 +30,7 @@
 
         li {
             list-style: none;
+            padding: 0% 5% 0% 5%;
 
             a {
                 font-size: 20px;
@@ -36,6 +38,43 @@
                 text-decoration: none;
                 color: black;
             }
+
+            button {
+                font-size: 20px;
+                font-weight: 600;
+                color: black;
+                border: 0;
+                background-color: white;
+                font-family: "Nunito Sans";
+                cursor: pointer;
+            }
         }
     }
 }
+
+@media only screen and (max-device-width: 480px) {
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .navbar-leftSide {
+        a {
+            font-size: 20px;
+        }
+    }
+    
+    .navbar-rightSide {
+        ul {
+            li {
+                a {
+                    font-size: 18px;
+                    button {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    }
