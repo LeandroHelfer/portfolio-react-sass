@@ -58,7 +58,7 @@
 .central-end {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 38px 48px 48px 48px;
 
     a:hover {
@@ -71,7 +71,7 @@
     }
 }
 
-@media only screen and (max-device-width: 480px) {
+@media (max-width: 768px) {
     .central-top {
         .central-top__text {
             &_h1 {

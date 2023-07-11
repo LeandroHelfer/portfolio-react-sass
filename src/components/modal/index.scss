@@ -1,6 +1,6 @@
 .modal {
     width: 100%;
-    height: 130vh;
+    height: 150%;
     position: absolute;
     top: 0;
     left: 0;
@@ -14,7 +14,7 @@
         background-color: white;
         color: black;
         width: 50%;
-        height: 60%;
+        height: 55%;
         border-radius: 20px;
 
         .close {
@@ -77,93 +77,61 @@
     }
 }
 
-@media only screen and (max-device-width: 850px) {
+@media (max-width: 1224px) {
     .modal {
-        height: 183vh;
-        .container {
-            width: 80%;
-            height: 30%;
-
-            .content__h1 {
-                font-size: 40px;
-            }
-
-            .content__h2 {
-                font-size: 16px;
-            }
-        }
+        height: 190%;
     }
-
-
 }
 
-@media only screen and (max-device-width: 573px) {
+@media (max-width: 768px) {
     .modal {
-        height: 185vh;
+        height: 230%;
         .container {
-            width: 80%;
-            height: 30%;
-
-            .content__h1 {
-                font-size: 35px;
-            }
-
-            .content__h2 {
-                font-size: 14px;
+            width: 60%;
+            height: 60%;
+            .content {
+                &__h1 {
+                    font-size: 34px;
+                }
+                &__h2 {
+                    font-size: 16px;
+                }
             }
         }
     }
 }
 
-@media only screen and (max-device-width: 461px) {
+@media (max-width: 594px) {
     .modal {
-        height: 230vh;
+        height: 350%;
         .container {
-            width: 80%;
-            height: 32%;
-
-            .content__h1 {
-                font-size: 30px;
-            }
-
-            .content__h2 {
-                font-size: 12px;
+            width: 70%;
+            height: 40%;
+            .content {
+                &__h1 {
+                    font-size: 30px;
+                }
+                &__h2 {
+                    font-size: 14px;
+                }
             }
         }
     }
 }
 
-@media only screen and (max-device-width: 400px) {
+@media (max-width: 425px) {
     .modal {
-        height: 255vh;
+        height: 350%;
         .container {
             width: 80%;
-            height: 32%;
-
-            .content__h1 {
-                font-size: 30px;
-            }
-
-            .content__h2 {
-                font-size: 12px;
-            }
-        }
-    }
-}
-
-@media only screen and (max-device-width: 385px) {
-    .modal {
-        height: 320vh;
-        .container {
-            width: 80%;
-            height: 35%;
-
-            .content__h1 {
-                font-size: 30px;
-            }
-
-            .content__h2 {
-                font-size: 12px;
+            height: 40%;
+            .content {
+                &__h1 {
+                    font-size: 24px;
+                }
+                &__h2 {
+                    font-size: 10px;
+                }
             }
         }
     }

@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1.1% 5% 1.1% 2.6%;
     box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.24);
     font-family: 'Nunito Sans';
@@ -21,16 +22,15 @@
 }
 
 .navbar-rightSide {
-    width: 40%;
-    padding-right: 5%;
+    width: 60%;
 
     ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
 
         li {
             list-style: none;
-            padding: 0% 5% 0% 5%;
+            margin: 0% 2% 0% 2%;
 
             a {
                 font-size: 20px;
@@ -52,29 +52,21 @@
     }
 }
 
-@media only screen and (max-device-width: 480px) {
-    .navbar {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    
+@media (max-width: 768px) {
     .navbar-leftSide {
         a {
             font-size: 20px;
         }
     }
-    
+
     .navbar-rightSide {
-        ul {
-            li {
-                a {
-                    font-size: 18px;
-                    button {
-                        font-size: 18px;
-                    }
-                }
-            }
+        width: 80%;
+
+        ul li a{
+            font-size: 16px;
+        }
+        ul li button {
+            font-size: 16px;
         }
     }
-    }
+}
