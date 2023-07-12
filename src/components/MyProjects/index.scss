@@ -1,204 +1,63 @@
-.MyProjects--card1 {
-    display: flex;
-    padding: 16px 66px;
-    background: #598AD5;
+@use "../../sass/variables.scss" as *;
 
-    .MyProjects--card1__text {
-        padding-left: 33px;
-        width: 70%;
+.text-Projects {
+    padding-top: 17px;
+}
 
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-        color: #FFFFFF;
 
-        .MyProjects--card1__text__link {
-            display: flex;
-            gap: 11px;
-            align-items: center;
+.MyProjects-cardblue {
+    @include cardBlueProjects;
 
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 27px;
-            color: #FFFFFF;
+    &__text {
+        @include cardBlueProjectsText;
+
+        &__link {
+            @include cardBlueProjectsLink;
         }
 
-        p {
-            padding-top: 17px;
-        }
-
-        a{
+        .text-LinkWhite{
             color: white;
             text-decoration: none;
         }
     }
 }
 
-.MyProjects--card2 {
-    display: flex;
-    padding: 16px 66px;
-    justify-content: flex-end;
 
-    .MyProjects--card2__text {
-        padding-right: 33px;
-        width: 60%;
-        text-align: end;
+.MyProjects-cardwhite {
+    @include cardWhiteProjects;
 
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-        color: #598AD5;
+    .MyProjects-cardwhite__text {
+        @include cardWhiteProjectsText;
 
-        .MyProjects--card2__text__link {
-            display: flex;
-            justify-content: flex-end;
-            gap: 11px;
-            align-items: center;
-
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 27px;
-            color: #598AD5;
+        .MyProjects-cardwhite__text__link {
+            @include cardWhiteProjectsLink;
         }
 
-        p {
-            padding-top: 17px;
-        }
-
-        a{
+        .text-LinkBlue{
             color: #598AD5;
             text-decoration: none;
         }
     }
 }
 
-.MyProjects--card3 {
-    display: flex;
-    padding: 16px 66px;
-    background: #598AD5;
+@media (max-width: 767px) {
+    .MyProjects-cardblue {
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 30px;
 
-    .MyProjects--card3__text {
-        padding-left: 33px;
-        width: 53%;
-
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-        color: #FFFFFF;
-
-        .MyProjects--card3__text__link {
-            display: flex;
-            gap: 11px;
-            align-items: center;
-
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 27px;
-            color: #FFFFFF;
-        }
-
-        p {
-            padding-top: 17px;
-        }
-
-        a{
-            color: white;
-            text-decoration: none;
+        &__text {
+            width: 100%;
         }
     }
-}
 
-.MyProjects--card4 {
-    display: flex;
-    padding: 16px 66px;
-    justify-content: flex-end;
-    border-bottom: 3px solid #598AD5;
+    .MyProjects-cardwhite {
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 30px;
 
-    .MyProjects--card4__text {
-        padding-right: 33px;
-        width: 65%;
-        text-align: end;
-
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-        color: #598AD5;
-
-        .MyProjects--card4__text__link {
-            display: flex;
-            justify-content: flex-end;
-            gap: 11px;
-            align-items: center;
-
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 27px;
-            color: #598AD5;
-        }
-
-        p {
-            padding-top: 17px;
-        }
-
-        a{
-            color: #598AD5;
-            text-decoration: none;
-        }
-    }
-}
-
-.MyProjects--card5 {
-    display: flex;
-    padding: 16px 66px;
-    background: #598AD5;
-
-    .MyProjects--card5__text {
-        padding-left: 33px;
-        width: 65%;
-
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-        color: #FFFFFF;
-
-        .MyProjects--card5__text__link {
-            display: flex;
-            gap: 11px;
-            align-items: center;
-
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 27px;
-            color: #FFFFFF;
-        }
-
-        p {
-            padding-top: 17px;
-        }
-
-        a{
-            color: white;
-            text-decoration: none;
+        .MyProjects-cardwhite__text {
+            width: 100%;
         }
     }
 }

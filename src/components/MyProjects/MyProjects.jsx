@@ -10,16 +10,16 @@ import clip from "../../assets/clip.png"
 const MyProjects = () => {
   return (
     <div className='MyProjects'>
-      <div className='MyProjects--card1'>
-        <div className='MyProjects--card1__img'>
+      <div className='MyProjects-cardblue'>
+        <div className='MyProjects-cardblue__img'>
           <img src={card2} alt="card1" />
         </div>
-        <div className='MyProjects--card1__text'>
-          <div className='MyProjects--card1__text__link'>
+        <div className='MyProjects-cardblue__text'>
+          <div className='MyProjects-cardblue__text__link'>
             <img src={clip} alt="clip" />
-            <a href="https://github.com/pripc/E-commerce-DNC" target="_blank">E-commerce DNC</a>
+            <a className='text-LinkWhite' href="https://github.com/pripc/E-commerce-DNC" target="_blank">E-commerce DNC</a>
           </div>
-          <p>
+          <p className='text-Projects'>
             Projeto realizado como conclusão da parte de Front-End do curso de formação em Tech da Escola DNC 📚<br></br>
             O projeto foi desenvolvido em grupo, onde tivemos que criar um cronograma através do Trello.<br></br>
             Cada participante ficou responsável por realizar o código de algum component ou View.<br></br>
@@ -28,13 +28,13 @@ const MyProjects = () => {
         </div>
       </div>
 
-      <div className='MyProjects--card2'>
-        <div className='MyProjects--card2__text'>
-          <div className='MyProjects--card2__text__link'>
-            <a href="https://adorable-smakager-538f79.netlify.app/" target="_blank" >DNC Coffee</a>
+      <div className='MyProjects-cardwhite'>
+        <div className='MyProjects-cardwhite__text'>
+          <div className='MyProjects-cardwhite__text__link'>
+            <a className='text-LinkBlue' href="https://adorable-smakager-538f79.netlify.app/" target="_blank" >DNC Coffee</a>
             <img src={clip} alt="clip" />
           </div>
-          <p>
+          <p className='text-Projects'>
             Projeto realizado no módulo 6 do curso de formação em Tech da Escola DNC 📚<br></br>
             Projeto foi desenvolvido e estilizado utilizando Bootstrap<br></br>
             Foi criada uma função para quando o usuário passar o mouse por cima de um card, habilitar o botão de compra sobre o mesmo.<br></br>
@@ -42,23 +42,23 @@ const MyProjects = () => {
             Essas duas novas funcionalidades foram criadas utilizando HTML, CSS e JavaScript.
           </p>
         </div>
-        <div className='MyProjects--card2__img'>
+        <div className='MyProjects-cardwhite__img'>
           <img src={card2} alt="card2" />
         </div>
       </div>
 
-      <div className='MyProjects--card3'>
-        <div className='MyProjects--card3__img'>
+      <div className='MyProjects-cardblue'>
+        <div className='MyProjects-cardblue__img'>
           <img src={card3} alt="card3" />
         </div>
-        <div className='MyProjects--card3__text'>
-          <div className='MyProjects--card3__text__link'>
+        <div className='MyProjects-cardblue__text'>
+          <div className='MyProjects-cardblue__text__link'>
             <img src={clip} alt="clip" />
-            <a href="https://illustrious-centaur-0813da.netlify.app/" target="_blank" >Login Jumpy DNC</a>
+            <a className='text-LinkWhite' href="https://illustrious-centaur-0813da.netlify.app/" target="_blank" >Login Jumpy DNC</a>
           </div>
-          <p>
-            Projeto realizado no módulo 5 do curso de Formação em Tech da escola DNC 📚
-            Foi desenvolvido um login, no qual se os campos não estiverem preenchidos,
+          <p className='text-Projects'>
+            Projeto realizado no módulo 5 do curso de Formação em Tech da escola DNC 📚<br></br>
+            Foi desenvolvido um login, no qual se os campos não estiverem preenchidos,<br></br>
             aparece uma mensagem de erro abaixo de campo.<br></br>
             E caso todos os campos estiverem preenchidos,<br></br>
             aparece uma mensagem de Sucesso! abaixo do botão.
@@ -66,35 +66,35 @@ const MyProjects = () => {
         </div>
       </div>
 
-      <div className='MyProjects--card4'>
-        <div className='MyProjects--card4__text'>
-          <div className='MyProjects--card4__text__link'>
-            <a href="https://admirable-platypus-6c0a1e.netlify.app/" target="_blank" >Evento CCXP</a>
+      <div className='MyProjects-cardwhite'>
+        <div className='MyProjects-cardwhite__text'>
+          <div className='MyProjects-cardwhite__text__link'>
+            <a className='text-LinkBlue' href="https://admirable-platypus-6c0a1e.netlify.app/" target="_blank" >Evento CCXP</a>
             <img src={clip} alt="clip" />
           </div>
-          <p>
+          <p className='text-Projects'>
             Projeto realizado no módulo 4 do curso de formação em Tech da Escola DNC 📚<br></br>
             Foi desenvolvido uma landing page sobre o evento CCXP utilizando HTML, CSS e JavaScript.
             Na qual contém um cronometro mostrando os dia, horas, minutos e segundos para o inicio do grande evento.
           </p>
         </div>
-        <div className='MyProjects--card2__img'>
+        <div className='MyProjects-cardwhite__img'>
           <img src={card4} alt="card4" />
         </div>
       </div>
 
-      <div className='MyProjects--card5'>
-        <div className='MyProjects--card5__img'>
+      <div className='MyProjects-cardblue'>
+        <div className='MyProjects-cardblue__img'>
           <img src={card5} alt="card5" />
         </div>
-        <div className='MyProjects--card5__text'>
-          <div className='MyProjects--card5__text__link'>
+        <div className='MyProjects-cardblue__text'>
+          <div className='MyProjects-cardblue__text__link'>
             <img src={clip} alt="clip" />
-            <a href="https://sprightly-peony-327014.netlify.app/" target="_blank" >Bye Car DNC</a>
+            <a className='text-LinkWhite' href="https://sprightly-peony-327014.netlify.app/" target="_blank" >Bye Car DNC</a>
           </div>
-          <p>
-            Projeto realizado durante uma das aulas ao vivo do curso de Formação em Tech da escola DNC 📚
-            Foi desenvolvido uma página de divulgação e venda de motos utilizando HTML, CSS e JavaScript.
+          <p className='text-Projects'>
+            Projeto realizado durante uma das aulas ao vivo do curso de Formação em Tech da escola DNC 📚<br></br>
+            Foi desenvolvido uma página de divulgação e venda de motos utilizando HTML, CSS e JavaScript.<br></br>
             Aprendemos a utilizar a funcionalidade de carrousel, onde o usuário pode trocar o modelo da moto através das setas ao lado.
           </p>
         </div>
