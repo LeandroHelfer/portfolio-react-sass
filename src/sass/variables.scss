@@ -1,0 +1,62 @@
+//* Component MyProjects - Cards com Backgound Blue *//
+@mixin cardBlueProjects {
+        display: flex;
+        padding: 16px 66px;
+        background: #598AD5;
+}
+
+@mixin cardBlueProjectsText {
+        padding-left: 33px;
+        width: 70%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+}
+
+@mixin cardBlueProjectsLink {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+}
+
+//* Component MyProjects - Cards com Backgound White *//
+@mixin cardWhiteProjects {
+        display: flex;
+        padding: 16px 66px;
+        justify-content: flex-end;
+}
+
+@mixin cardWhiteProjectsText {
+        padding-right: 33px;
+        width: 60%;
+        text-align: end;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #598AD5;
+}
+
+@mixin cardWhiteProjectsLink {
+        display: flex;
+            justify-content: flex-end;
+            gap: 11px;
+            align-items: center;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #598AD5;
+}
